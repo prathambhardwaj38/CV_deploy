@@ -77,7 +77,7 @@ for root, dirs, files in os.walk(test_path):
 
 print(num_train_imgs)
 print(num_test_imgs)
-epochs=30
+epochs=100
 
 history=model.fit(train_generator,
                 steps_per_epoch=num_train_imgs//32,
