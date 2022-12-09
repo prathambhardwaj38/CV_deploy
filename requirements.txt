@@ -1,5 +1,5 @@
 numpy==1.22.3
-opencv-python==4.5.5.64
+opencv-contrib-python-headless
 pandas==1.4.2
 keras
 av
