@@ -4,4 +4,6 @@ pandas==1.4.2
 keras
 tensorflow
 av
-streamlit-webrtc
+streamlit
+streamlit_webrtc
+mediapipe==0.8.9.1
