@@ -65,5 +65,4 @@ def main():
 
             else:
                 st.warning("No frames available yet.")
-if __name__ == "__main__":
-    main()
+main()
