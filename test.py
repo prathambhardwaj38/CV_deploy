@@ -29,7 +29,14 @@ def main():
                 self.out_image = out_image
             return out_image
 
-    ctx = webrtc_streamer(key="snapshot", video_transformer_factory=VideoTransformer)
+    # ctx = webrtc_streamer(key="snapshot", video_transformer_factory=VideoTransformer)
+    ctx = webrtc_streamer(
+    key="snapshot",
+    video_frame_callback=VideoTransformer,
+    rtc_configuration={  # Add this line
+        "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
+    }
+)
     model=load_model('model_file.h5')
     faceDetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
     labels_dict={0:'Angry',1:'Disgust', 2:'Fear', 3:'Happy',4:'Neutral',5:'Sad',6:'Surprise'}
