@@ -1,10 +1,19 @@
+# numpy==1.22.3
+# pandas==1.4.2
+# keras
+# tensorflow
+# av==8.1.0
+# mediapipe==0.8.9.1
+# opencv-python-headless==4.5.5.64
+# streamlit>=1.8.1
+# streamlit_authenticator==0.1.0
+# streamlit-webrtc==0.43.4
 numpy==1.22.3
+opencv-contrib-python-headless
 pandas==1.4.2
 keras
-tensorflow
-av==8.1.0
+av
 mediapipe==0.8.9.1
-opencv-python-headless==4.5.5.64
-streamlit>=1.8.1
-streamlit_authenticator==0.1.0
-streamlit-webrtc==0.43.4
+streamlit==0.81.1
+streamlit_webrtc==0.20.0
+tensorflow
