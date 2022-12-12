@@ -10,7 +10,6 @@ matplotlib==3.2.2
 mediapipe==0.8.9.1
 #cffi==1.15.0
 mysql-connector-python==8.0.27
-numpy==1.19.2
 #opencv_python==3.4.10.37
 # opencv-python-headless==4.1.2.30
 opencv-python-headless==4.5.5.64
