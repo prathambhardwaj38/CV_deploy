@@ -15,7 +15,6 @@ mysql-connector-python==8.0.27
 opencv-python-headless==4.5.5.64
 openpifpaf==0.12.14
 # openpifpaf==0.13.5
-pandas==1.0.5
 Pillow==9.0.0
 bcrypt==3.2.0
 scipy==1.5.0
